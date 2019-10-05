@@ -1,0 +1,129 @@
+
+			.p1{color:red;
+				height: 200px;
+				width: 200px;
+				border:2px solid black;
+				border-radius: 50%;
+				padding: 20px ;
+				background-color: blue;
+				padding-top: 5%;
+				padding-left: 5%;
+				left text-align-last: left;
+
+				
+			}
+	.odd{
+		background-color:orange;
+		height: 100px;
+		width:400px;
+
+	}
+	.even{
+		background-color:green;
+		margin :10px 10px 10px 10px;
+		width: 400px;
+	}
+
+	#heading1{
+		color:red;
+		height: 70%;
+		width:75%;
+		font-size: 15px;
+		/*margin-top: 0px;
+		margin-bottom: 0px;*/
+		margin: 10px 10px 10px 10px;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding :20px 20px 20px 20px;
+		margin: 2%;
+		padding:2%;
+
+		border :5px solid blue; 
+
+		border-radius: 10px;
+		box-shadow: 10px 10px  0px gray;
+
+		box-sizing: border-box;
+
+
+	}
+
+
+	body{
+
+		/*background-image: url("../images/trump.jpeg");
+		background-size: cover;*/
+		background-image: linear-gradient(to right,rgba(255,100,0,0.5),rgba(0,0,255,0.75))
+	}
+
+	.heading{
+		text-align: center;
+		 font-size: 50px;
+	}
+
+
+	.paragraph
+	{
+		font-size:30px;
+		font-weight:bold;
+		font-style:italic; 
+	}
+
+	.list1{
+		list-style-type: circle;
+	}
+
+	.list a{
+		text-decoration: none;
+		color:black;
+	}
+
+
+
+	.list a:hover{
+		color:orange;
+
+	}
+
+	#index{
+		text-decoration: none;
+		color:black;
+		text-align: left;
+	}
+
+
+
+	label{
+		display: block; 	
+		margin :10px 0;
+	}
+
+	input {
+		height: 30px;
+	}
+
+	.regform{
+		margin:5% 0 0 4%;
+		border :2px solid black;
+		padding:5% ;
+		margin: 15%;
+	}
+
+	.regform h2{
+		text-align: center;
+font-size: 40px;
+	}
+
+
+	.button{
+		display: block;
+		margin-top: 10px;
+		height: =100px;
+		width: 100px;
+		color: green;
+		background-color: blue;
+	}
+
+
+
+	
