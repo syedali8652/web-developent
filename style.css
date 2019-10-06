@@ -1,129 +1,167 @@
+body{
+	background-color: #f4f4f4;
+	font:15px/1.5 Arial;
+	padding:0;
+	margin:0;
+}
 
-			.p1{color:red;
-				height: 200px;
-				width: 200px;
-				border:2px solid black;
-				border-radius: 50%;
-				padding: 20px ;
-				background-color: blue;
-				padding-top: 5%;
-				padding-left: 5%;
-				left text-align-last: left;
+.container{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+}
 
-				
-			}
-	.odd{
-		background-color:orange;
-		height: 100px;
-		width:400px;
+ul{
+	margin:0;
+	padding:0;
+}
 
-	}
-	.even{
-		background-color:green;
-		margin :10px 10px 10px 10px;
-		width: 400px;
-	}
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
 
-	#heading1{
-		color:red;
-		height: 70%;
-		width:75%;
-		font-size: 15px;
-		/*margin-top: 0px;
-		margin-bottom: 0px;*/
-		margin: 10px 10px 10px 10px;
-		padding-top: 20px;
-		padding-left: 20px;
-		padding :20px 20px 20px 20px;
-		margin: 2%;
-		padding:2%;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
 
-		border :5px solid blue; 
+header #branding{
+	float:left;
+}
 
-		border-radius: 10px;
-		box-shadow: 10px 10px  0px gray;
+header h1{
+	margin:0;
+}
 
-		box-sizing: border-box;
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+
+header .highlight ,header .current a{
+	color:#e4526d;
+	font-weight: lighter;
+	font-style: italic;
+
+}
+
+header a:hover{
+	color: #ffffff;
+	font-weight:bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background:url("../img/kashmir.jpg");
+	text-align: center;
+	color:#ffffff;
+	/*background-size: cover;*/
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	font-size: 20px;
+	font-style:italic;
+	border-bottom: white 3px solid;
+}
+
+#newsletter{
+	border-bottom: #e8491d 3px solid;
+	padding:15px;
+	color:#ffffff;
+	background:#736767;
+	border-bottom: #e8491d 3px solid;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
 
 
-	}
+#newsletter input[type="email"]
+{
+	padding:5px;
+	height:50px;
+	width:300px;
+	border: 2px solid black;
+}
+
+.button_1{
+	height: 50px;
+	background-color: red;
+	border 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#ffffff;
+}
 
 
-	body{
+#boxes{
+	margin-top: 20px;
+}
 
-		/*background-image: url("../images/trump.jpeg");
-		background-size: cover;*/
-		background-image: linear-gradient(to right,rgba(255,100,0,0.5),rgba(0,0,255,0.75))
-	}
+#boxes .box{
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px; 
 
-	.heading{
-		text-align: center;
-		 font-size: 50px;
-	}
+}
 
+#boxes .box img{
+	width:90px;
 
-	.paragraph
+}
+
+footer{
+	padding:20px;
+	margin-top: 20px;
+	color:736767;
+	background-color: #e8491d;
+	text-align: center;
+
+}
+
+@media(max-width: 768px)
+{
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newslatter form,
+	#boxes .box
 	{
-		font-size:30px;
-		font-weight:bold;
-		font-style:italic; 
-	}
-
-	.list1{
-		list-style-type: circle;
-	}
-
-	.list a{
-		text-decoration: none;
-		color:black;
-	}
-
-
-
-	.list a:hover{
-		color:orange;
-
-	}
-
-	#index{
-		text-decoration: none;
-		color:black;
-		text-align: left;
-	}
-
-
-
-	label{
-		display: block; 	
-		margin :10px 0;
-	}
-
-	input {
-		height: 30px;
-	}
-
-	.regform{
-		margin:5% 0 0 4%;
-		border :2px solid black;
-		padding:5% ;
-		margin: 15%;
-	}
-
-	.regform h2{
+		float:none;
 		text-align: center;
-font-size: 40px;
-	}
+		width:100%;
+}
+}
 
+# newsletter button
+{
+	display :block;
+	width:100%;
+}
 
-	.button{
-		display: block;
-		margin-top: 10px;
-		height: =100px;
-		width: 100px;
-		color: green;
-		background-color: blue;
-	}
-
-
-
-	
+#newsletter form input[type='email']
+{width:100%;}
